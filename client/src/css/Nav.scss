@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+#nav {
+  flex-direction: row;
+  direction: rtl;
+  background-color: $navBgColor;
+}
+
+#nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  li {
+    display: inline;
+    padding: 20px;
+  }
