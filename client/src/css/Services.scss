@@ -1,0 +1,28 @@
+@import "variables.scss";
+
+#services {    
+  margin: 0;
+  background-color: $servicesBgColor;
+  height: calc(100% - 47px);
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+
+  .page-header {
+    text-align: center;
+  }
+
+  .page-title {
+    color: $servicesTitleColor;
+    font-family: $servicesTitleFont;
+    font-size: $servicesTitleFontSize;
+    font-weight: $servicesTitleFontWeight;
+  }
+
+  .page-description {
+    color: $servicesDescriptionColor;
+    font-family: $servicesDescriptionFont;
+    font-size: $servicesDescriptionFontSize;
+    font-weight: $servicesDescriptionFontWeight;
+  }
+}

@@ -1,0 +1,28 @@
+@import "variables.scss";
+
+#portfolio {    
+  margin: 0;
+  background-color: $portfolioBgColor;
+  height: calc(100% - 47px);
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+
+  .page-header {
+    text-align: center;
+  }
+
+  .page-title {
+    color: $portfolioTitleColor;
+    font-family: $portfolioTitleFont;
+    font-size: $portfolioTitleFontSize;
+    font-weight: $portfolioTitleFontWeight;
+  }
+
+  .page-description {
+    color: $portfolioDescriptionColor;
+    font-family: $portfolioDescriptionFont;
+    font-size: $portfolioDescriptionFontSize;
+    font-weight: $portfolioDescriptionFontWeight;
+  }
+}
