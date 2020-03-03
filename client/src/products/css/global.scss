@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+.more {
+    color: $contrastColor;
+    font-size: 0.9rem;
+}
+
+.underlined {
+border-bottom: solid 4px $contrastColor;
+min-width: 100%;
+}

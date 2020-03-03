@@ -1,0 +1,12 @@
+[
+    {
+        "pageTitle": "Contact",
+        "pageDescription": "This is the contact page",
+        "street": "1st Avenue",
+        "city": "City",
+        "state": "State",
+        "zip": "87001",
+        "phone": "0241123456",
+        "email": "office@example.com"
+    }
+]

@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+#enquire {    
+  padding: 4rem 2rem;
+  background-color: $enquireBgColor;
+  height: calc(100% - 60px);
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+
+  .page-header {
+    text-align: center;
+  }
+
+  .page-title {
+    color: $enquireTitleColor;
+    font-family: $enquireTitleFont;
+    font-size: $enquireTitleFontSize;
+    font-weight: $enquireTitleFontWeight;
+  }
+
+  .page-description {
+    color: $enquireDescriptionColor;
+    font-family: $enquireDescriptionFont;
+    font-size: $enquireDescriptionFontSize;
+    font-weight: $enquireDescriptionFontWeight;
+  }
+
+  
+  
+}

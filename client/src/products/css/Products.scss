@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+#products {    
+  padding: 4rem 2rem;
+  background-color: $productsBgColor;
+  height: calc(100% - 60px);
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+
+  .page-header {
+    text-align: center;
+  }
+
+  .page-title {
+    color: $productsTitleColor;
+    font-family: $productsTitleFont;
+    font-size: $productsTitleFontSize;
+    font-weight: $productsTitleFontWeight;
+  }
+
+  .page-description {
+    color: $productsDescriptionColor;
+    font-family: $productsDescriptionFont;
+    font-size: $productsDescriptionFontSize;
+    font-weight: $productsDescriptionFontWeight;
+  }
+
+  .sku-link {
+    color: #414141;
+    text-decoration: underline;
+  }
+
+  .products-table-body {
+    color: #686868;
+    font-size: 15px;
+  }
+
+  .product-title {
+    color: #000000;
+  }
+
+}

@@ -1,0 +1,37 @@
+@import "variables.scss";
+
+#product {    
+  padding: 4rem 2rem;
+  background-color: $productBgColor;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+
+  .page-header {
+    text-align: center;
+  }
+
+  .page-title {
+    color: $productTitleColor;
+    font-family: $productTitleFont;
+    font-size: $productTitleFontSize;
+    font-weight: $productTitleFontWeight;
+  }
+
+  .page-description {
+    color: $productDescriptionColor;
+    font-family: $productDescriptionFont;
+    font-size: $productDescriptionFontSize;
+    font-weight: $productDescriptionFontWeight;
+  }
+
+  .product-sku {
+    color: rgb(56, 54, 54);
+    padding: 0px;
+  }
+
+  .products-table-body {
+    color: #686868;
+    font-size: 15px;
+  }
+}
